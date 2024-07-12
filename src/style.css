@@ -1,6 +1,7 @@
 .frame {
     height: 50vh;
     text-align: center;
+    position: relative;
 }
 
 .images-div {
@@ -19,6 +20,7 @@
     width: 10px;
     border: 2px solid gray;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .img-1 {
@@ -35,4 +37,21 @@
 
 .img-4 {
     display: none;
+}
+
+.left-arrow,
+.right-arrow {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    cursor: pointer;
+}
+
+.right-arrow {
+    right: 7%;
+}
+
+.left-arrow {
+    left: 7%;
 }
