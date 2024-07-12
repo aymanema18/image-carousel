@@ -1,7 +1,38 @@
 .frame {
-    width: 50vh;
+    height: 50vh;
+    text-align: center;
 }
 
 .images-div {
     width: 90%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.circle {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.img-1 {
+    display: block;
+}
+
+.img-2 {
+    display: none;
+}
+
+.img-3 {
+    display: none;
+}
+
+.img-4 {
+    display: none;
 }
